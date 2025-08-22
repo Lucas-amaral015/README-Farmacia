@@ -48,7 +48,7 @@ O projeto de implementação foi dividido em **3 etapas principais**, cada uma r
 
 ##  Conclusão
 A implementação de serviços AWS na **Farmácia Vida Saudável** proporcionará:
--  Redução de custos com servidores locais e manutenção.
+- Redução de custos com servidores locais e manutenção.
 - Maior segurança no armazenamento de documentos e dados sensíveis.
 - Facilidade de acesso remoto ao sistema da farmácia.
 
@@ -59,21 +59,20 @@ Recomenda-se que a farmácia continue utilizando esses serviços e, futuramente,
 ###  Guia básico de acesso ao Amazon S3
 - **Objetivo:** Ensinar como acessar e gerenciar os arquivos na nuvem.
 - **Passos principais:**
-  1. Acesse o [AWS Management Console](https://aws.amazon.com/console/).
-  2. Faça login com seu usuário da farmácia.
-  3. Navegue até o serviço **S3**.
-  4. Crie ou abra um bucket (pasta na nuvem) para armazenar documentos.
-  5. Faça upload dos arquivos da farmácia para o bucket.
+- Acesse o [AWS Management Console](https://aws.amazon.com/console/).
+- Faça login com seu usuário da farmácia. Navegue até o serviço **S3**.
+- Crie ou abra um bucket (pasta na nuvem) para armazenar documentos.
+- Faça upload dos arquivos da farmácia para o bucket.
 
 ---
 
 ###  Manual de login no sistema hospedado em EC2
 - **Objetivo:** Acessar o sistema interno da farmácia via servidor na nuvem.
 - **Passos principais:**
-  1. Abra o terminal ou cliente SSH (como [PuTTY](https://www.putty.org/)).
-  2. Conecte usando o IP público do servidor EC2 e a chave privada fornecida.
-  3. Digite as credenciais do sistema da farmácia.
-  4. Navegue pelo sistema e confirme que todos os módulos estão funcionando.
+- Abra o terminal ou cliente SSH (como [PuTTY](https://www.putty.org/)).
+- Conecte usando o IP público do servidor EC2 e a chave privada fornecida.
+- Digite as credenciais do sistema da farmácia.
+- Navegue pelo sistema e confirme que todos os módulos estão funcionando.
 
 ---
 
